@@ -1,0 +1,7 @@
+<div>
+  <app-add-member (newItemEvent)= "onAdd($event)" [count] = countOfFamilyMembers ></app-add-member>
+  <div *ngFor = 'let name of names '>
+  <p>hello world   {{this.name}}</p>    
+  </div>
+  <p>number of family numbers is : {{this.names.length}}</p>
+</div>

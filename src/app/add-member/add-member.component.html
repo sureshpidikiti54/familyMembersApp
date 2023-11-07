@@ -1,0 +1,6 @@
+<p>add-member works!</p>
+<form [formGroup]="familyMemberDetails">
+    number of family numbers till now is : {{this.count}}
+<input type="text" formControlName="name" placeholder="Enter name"/>
+</form>
+<button (click)="addNewMember()">Add Member</button>
